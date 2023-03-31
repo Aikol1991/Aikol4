@@ -19,7 +19,7 @@ export const Register = (props) => {
             <input value={phone} type="number" id="phone"/>
             <label> Год рождения: </label>
             <input value={year} type="number" id="year"/>
-            <button type="button" onClick="register()">Register</button>
+            <button type="button" onClick="register()">Register here</button>
         </form>
         <button classname="link-btn" onClick={() => props.onFormSwitch('register')}>Don`t have an account? Register now</button> 
     </div>
